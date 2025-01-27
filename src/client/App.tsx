@@ -1,9 +1,10 @@
 import React from "react";
+import {SingleBasicAccountBalance} from "./SingleBasicAccountBalance";
 
 export const App = () => {
-    return (
-        <>
-           All the UI things will happen in here
-        </>
-    );
+  return (
+    <div>
+      <SingleBasicAccountBalance />
+    </div>
+  );
 };
